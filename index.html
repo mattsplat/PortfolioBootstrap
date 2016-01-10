@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap Portfolio Build | Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <nav class="navbar" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                Programmer Portfolio
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="container-fluid text-center">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <h1>
+                  Matthew Coleman
+                </h1>
+                <p class="lead">
+                  Programmer and Maker
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterable-portfolio container-fluid">
+
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills portfolio-filter">
+                <h2>Choose a technology</h2>
+                <li class="portfolio-title">
+
+                </li>
+                <li role="presentation" class="active">
+                  <a href="#" data-filter="*">All</a>
+                </li>
+                <li role="presentation">
+                  <a href="#" data-filter=".web">Web</a>
+                </li>
+                <li role="presentation">
+                  <a href="#" data-filter=".python">Python</a>
+                </li>
+                <li role="presentation">
+                  <a href="#" data-filter=".c">C++/C#</a>
+                </li>
+                <!--<li role="presentation">
+                  <a href="#" data-filter=".javascript">Javascript</a>
+                </li>-->
+              </ul>
+            </div>
+          </div>
+
+          <div class="portfolio-items row">
+
+            <!--Angular -->
+            <figure class="portfolio-item col-sm-3 item web">
+              <h4 class="p-icon-label">Angular</h4>
+              <a href="angular.html">
+                <img src="img/angular.png" class="img-responsive">
+              </a>
+            </figure>
+            <!--Wordpress icon -->
+            <figure class="portfolio-item col-sm-3 item web">
+              <h4 class="p-icon-label">Wordpress</h4>
+              <a href="wp.html">
+                <img src="img/wp.png">
+              </a>
+            </figure>
+            <!--Bootstrap -->
+
+            <figure class="portfolio-item col-sm-3 item web">
+              <h4 class="p-icon-label">Bootstrap</h4>
+              <a href="bootstrap.html">
+                <img src="img/bootstrap.png" class="img-responsive">
+              </a>
+            </figure>
+
+            <!--Javascript -->
+
+            <figure class="portfolio-item col-sm-3 item web">
+              <h4 class="p-icon-label">Javascript</h4>
+              <a href="javascript.html">
+                <img src="img/js.png">
+              </a>
+            </figure>
+
+            <!--Visual Studio -->
+
+            <figure class="portfolio-item col-sm-3 item c">
+              <h4 class="p-icon-label">Visual Studio C#</h4>
+              <a href="visualstudio.html">
+                <img src="img/Visual_Studio.svg.png" class="img-responsive">
+              </a>
+            </figure>
+
+            <!--Python -->
+
+            <figure class="portfolio-item col-sm-3 item python">
+              <h4 class="p-icon-label">Python</h4>
+              <a href="python.html">
+                <img src="img/python.png" class="img-responsive">
+              </a>
+            </figure>
+            <!--jQuery -->
+
+            <figure class="portfolio-item col-sm-3 item web">
+              <h4 class="p-icon-label">jQuery</h4>
+              <a href="jquery.html">
+                <img src="img/jQuery.jpg" class="img-responsive">
+              </a>
+            </figure>
+
+          </div>
+
+        </div>
+
+
+        <footer class="container-fluid site-footer">
+          <div class="row">
+            <div class="col-md-12">
+
+              <p>
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> <span id="number"></span>
+              </p>
+              <p>
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <span id ="email"></span>
+              </p>
+              <p>
+                <span class="fa fa-github-square">  </span> <span id ="github"></span>
+              </p>
+
+            </div>
+          </div>
+        </footer>
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

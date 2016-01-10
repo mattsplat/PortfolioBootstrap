@@ -1,0 +1,59 @@
+
+html{
+	background-color: gray;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+#container{
+	width:900px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+
+}
+#container h2{
+	text-align:center;
+	color:#045;
+}
+
+
+#quoteDisplay{
+	width:75%;
+
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:30%;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+button{
+	width:30%;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	color:#045;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+button:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;
+}
+#imgContainer{
+	width: 100%;
+	text-align: center;
+}
+img.author-img{
+	padding-left:5px;
+	max-width: 45%;
+}
