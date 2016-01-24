@@ -242,6 +242,9 @@ a {
   color: green;
 }
 
+.container-fluid .site-footer{
+  padding-top:25px;
+}
 .site-footer {
   margin-bottom: 3rem;
   padding-top: 20px;
